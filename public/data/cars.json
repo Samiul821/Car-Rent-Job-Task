@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Toyota Corolla",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/bMcmZQVn/cars-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Honda Civic",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/mC3gHV8Q/cars-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Ford Mustang",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/KjwWCRdF/cars-3.png"
+  },
+  {
+    "id": 4,
+    "title": "BMW 3 Series",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/0yW3Gz1q/cars-4.png"
+  },
+  {
+    "id": 5,
+    "title": "Audi A4",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/JwbgmPSs/cars-5.png"
+  },
+  {
+    "id": 6,
+    "title": "Mercedes-Benz C-Class",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/CKKMDtzJ/cars-6.png"
+  },
+  {
+    "id": 7,
+    "title": "Nissan Altima",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/Jg7wdBM/cars-7.png"
+  },
+  {
+    "id": 8,
+    "title": "Hyundai Elantra",
+    "description": "Whether you're commuting in the city or cruising down the highway, our cars offer cutting-edge technology, fuel efficiency, and unmatched reliability.",
+    "img": "https://i.ibb.co.com/1fcs36T6/cars-8.png"
+  }
+]
