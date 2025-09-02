@@ -3,7 +3,7 @@ import cars from "../../../public/data/cars.json";
 
 const OurVechile = () => {
   return (
-    <div className="mt-[87px] bg-gray-50 py-[70px] md:py-[100px] md:px-10 lg:px-20 xl:px-[250px]">
+    <div className="mt-[87px] bg-gray-50 py-[70px] md:py-[100px] px-3 md:px-10 lg:px-20 xl:px-[250px]">
       <div className="text-center mb-10">
         <h4 className="text-xl md:text-2xl text-[#1F1B1B] arsenal-font mb-2">
           Our Vechile
@@ -14,7 +14,7 @@ const OurVechile = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {cars.map((car) => (
-          <div key={car.id} className="bg-white py-4 px-3">
+          <div key={car.id} className="bg-white shadow-xl shadow-gray-100 py-4 px-3">
             <div className="mb-4">
               <img
                 className="w-[312px] h-[215px]"

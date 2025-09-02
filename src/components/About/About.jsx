@@ -3,19 +3,19 @@ import AboutImg from "../../assets/About.png";
 
 const About = () => {
   return (
-    <div className="py-16 md:py-24 px-4 md:px-10 lg:px-20 xl:px-[250px]">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-6 items-center">
+    <div className="py-16 md:py-24 px-3 md:px-10 lg:px-20 xl:px-[250px]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-6 items-center">
         {/* Image on top for mobile, left for large screens */}
-        <div className="order-1 lg:order-2 flex justify-center lg:justify-end mb-6 lg:mb-0">
+        <div className="order-1 xl:order-2 flex justify-center lg:justify-end mb-6 lg:mb-0">
           <img
             src={AboutImg}
             alt="About us"
-            className="w-full max-w-md lg:max-w-full h-auto object-contain"
+            className="w-full max-w-md xl:max-w-full h-auto object-contain"
           />
         </div>
 
         {/* Text Content */}
-        <div className="order-2 lg:order-1">
+        <div className="order-2 xl:order-1">
           <div className="mb-8">
             <h5 className="text-xl md:text-2xl text-[#1F1B1B] arsenal-font mb-2">
               About us
