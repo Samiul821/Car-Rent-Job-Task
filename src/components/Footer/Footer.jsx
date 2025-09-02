@@ -7,20 +7,29 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="bg-[#101010] py-[100px] px-[200px] inter-font">
-      <div className="flex space-x-[207px] mb-12">
-        <div>
-          <h1 className="text-[32px] text-white font-medium mb-[14px]">
+    <div className="bg-[#101010] py-[70px] md:py-[100px] px-3 md:px-10 lg:px-20 xl:px-[200px] inter-font">
+      {/* Top Section */}
+      <div className="flex flex-col xl:flex-row lg:justify-between gap-12 mb-12">
+        {/* Left side */}
+        <div className="xl:w-1/3">
+          <h1 className="text-[28px] md:text-[32px] text-white font-medium mb-4">
             <span className="text-primary">Car</span>Venture
           </h1>
-          <p className="text-white">
-            Elephant In The Room LLC, Zina Ortiz and <br /> affiliated team of clinicians fully comply <br /> with all local and Colorado State cannabis <br /> laws, and all federal regulations.
+          <p className="text-white text-sm md:text-base leading-relaxed">
+            Elephant In The Room LLC, Zina Ortiz and affiliated team of
+            clinicians fully comply with all local and Colorado State cannabis
+            laws, and all federal regulations.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-[100px] text-white">
+
+        {/* Right side */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10 text-white">
+          {/* Quick Links */}
           <div>
-            <h4 className="text-xl font-semibold mb-[18px]">Quick Links</h4>
-            <ul className="space-y-3">
+            <h4 className="text-lg md:text-xl font-semibold mb-4">
+              Quick Links
+            </h4>
+            <ul className="space-y-2 text-sm md:text-base">
               <li>
                 <Link>Home</Link>
               </li>
@@ -41,9 +50,11 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
+          {/* Services */}
           <div>
-            <h4 className="text-xl font-semibold mb-[18px]">Services</h4>
-            <ul className="space-y-3">
+            <h4 className="text-lg md:text-xl font-semibold mb-4">Services</h4>
+            <ul className="space-y-2 text-sm md:text-base">
               <li className="flex items-center">
                 <BsArrowRight className="mr-2" /> Virtual Therapy
               </li>
@@ -54,28 +65,44 @@ const Footer = () => {
               <li>Somatic Psychotherapy</li>
             </ul>
           </div>
+
+          {/* Information */}
           <div>
-            <div className="mb-10">
-              <h4 className="text-xl font-semibold mb-[18px]">Information</h4>
-              <ul className="space-y-3">
+            <div className="mb-8">
+              <h4 className="text-lg md:text-xl font-semibold mb-4">
+                Information
+              </h4>
+              <ul className="space-y-2 text-sm md:text-base">
                 <li className="flex items-center">
                   <FiPhone className="mr-2" /> (719) 223-3261
                 </li>
-                <li className="flex items-center"><MdOutlineEmail className="mr-2" /> info@elephantintheroomllc.com</li>
-                <li className="flex items-center"><SlLocationPin className="mr-2" /> info@elephantintheroomllc.com</li>
+                <li className="flex items-center">
+                  <MdOutlineEmail className="mr-2" /> info@elephantintheroomllc.com
+                </li>
+                <li className="flex items-center">
+                  <SlLocationPin className="mr-2" /> Colorado, USA
+                </li>
               </ul>
             </div>
             <div>
-              <h4 className="text-xl font-semibold mb-[18px]">For Providers</h4>
-              <p>Become an affiliate Provider</p>
+              <h4 className="text-lg md:text-xl font-semibold mb-4">
+                For Providers
+              </h4>
+              <p className="text-sm md:text-base">Become an affiliate Provider</p>
             </div>
           </div>
         </div>
       </div>
-      <hr className="text-[#ffffff90]" />
-      <div className="mt-2 text-white flex justify-between">
-        <p>Copyright © 2025 Elephant In The Room LLC All Right Reserved.</p>
-        <div className="space-x-6">
+
+      {/* Divider */}
+      <hr className="border-[#ffffff30]" />
+
+      {/* Bottom Section */}
+      <div className="mt-2 text-white flex flex-col md:flex-row justify-between items-center gap-4 text-sm md:text-base">
+        <p className="text-center md:text-left">
+          © 2025 Elephant In The Room LLC All Rights Reserved.
+        </p>
+        <div className="flex flex-wrap justify-center gap-4">
           <Link>Privacy Policy</Link>
           <Link>Terms & Conditions</Link>
           <Link>Accessibility Statement</Link>
